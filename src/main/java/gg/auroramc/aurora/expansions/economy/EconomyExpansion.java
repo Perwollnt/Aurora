@@ -50,6 +50,11 @@ public class EconomyExpansion implements AuroraExpansion {
             if (defaultEconomy == null) defaultEconomy = Dep.COINS_ENGINE.getId();
         }
 
+        if (DependencyManager.hasDep(Dep.EXCELLENT_ECONOMY)) {
+            economies.put(Dep.EXCELLENT_ECONOMY.getId(), new ExcellentEconomy());
+            if (defaultEconomy == null) defaultEconomy = Dep.EXCELLENT_ECONOMY.getId();
+        }
+
         if (DependencyManager.hasDep("RoyaleEconomy")) {
             economies.put("RoyaleEconomyBank", new RoyaleEconomyBank());
             economies.put("RoyaleEconomy", new RoyaleEco());

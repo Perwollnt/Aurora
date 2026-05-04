@@ -24,6 +24,7 @@ softdepend:
   - EliteMobs
   - PlayerPoints
   - CoinsEngine
+  - ExcellentEconomy
   - RoyaleEconomy
   - Nexo
   - ItemEdit

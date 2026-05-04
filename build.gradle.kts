@@ -69,6 +69,8 @@ repositories {
     maven("https://repo.bg-software.com/repository/api/")
     // KGenerators
     maven("https://repo.codemc.org/repository/maven-public/")
+    // ExcellentEconomy
+    maven("https://repo.nightexpressdev.com/releases")
 }
 
 dependencies {
@@ -79,6 +81,7 @@ dependencies {
     compileOnly("net.essentialsx:EssentialsX:2.21.0-SNAPSHOT") {
         exclude(group = "org.spigotmc", module = "spigot-api")
     }
+    compileOnly("su.nightexpress.excellenteconomy:ExcellentEconomy:2.8.0")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7.1")
     compileOnly("me.clip:placeholderapi:2.11.6")
     compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.9")

@@ -3,6 +3,7 @@ package gg.auroramc.aurora.api.dependency;
 public enum Dep {
     ECONOMYSHOPGUIPREMIUM("EconomyShopGUI-Premium"),
     SUPERIORSKYBLOCK2("SuperiorSkyblock2"),
+    EXCELLENT_ECONOMY("ExcellentEconomy"),
     EXECUTABLE_BLOCKS("ExecutableBlocks"),
     WILDREGENERATION("WildRegeneration"),
     EXECUTABLE_ITEMS("ExecutableItems"),
